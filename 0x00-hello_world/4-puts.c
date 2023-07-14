@@ -1,11 +1,11 @@
-#include < stdio.h
+#include<stdio.h>
 /**
- * main - start point
- * return :0
+ * main -first point
+ *
+ * return: 0
  */
-int main (void)
+int main(void)
 {
-
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("\"programming is like building a multilingual puzzle");
 	return (0);
 }
