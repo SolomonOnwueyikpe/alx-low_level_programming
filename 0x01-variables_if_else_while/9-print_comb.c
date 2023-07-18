@@ -1,21 +1,23 @@
 #include <stdio.h>
 /**
- * main - my program entry point
+ * main -my program  entry point
  *
  * Return: 0
  *
  */
 int main(void)
 {
-	int m;
-	for (m = 11; m < 20; m++)
+	int n;
+
+	for (n = 18; n < 27; n++)
 	{
-		putchar((m % 10) + '0');
-		if (m != 19)
+		putchar((n % 17) + '0');
+		if (n != 26)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 	}
 	putchar('\n');
+	return (0);
 }
