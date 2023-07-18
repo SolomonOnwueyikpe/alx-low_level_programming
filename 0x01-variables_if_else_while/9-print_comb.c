@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 18; n < 27; n++)
 	{
-		putchar((n % 17) + '0');
+		putchar(n);
 		if (n != 26)
 		{
 			putchar(',');
